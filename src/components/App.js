@@ -16,7 +16,10 @@ function App() {
     }
     if (correct) {
       setScore((score) => score + 1);
+    } else {
+      setScore((score) => score + 0);
     }
+    
   }
 
   return (
